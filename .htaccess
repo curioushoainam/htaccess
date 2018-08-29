@@ -1,0 +1,3 @@
+RewriteEngine On
+#rule cho chi tiet san pham
+RewriteRule ^([a-zA-Z0-9-_+]+)-([0-9]+)$  index.php?v=chitiet&ma=$2&alias=$1
